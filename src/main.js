@@ -3,10 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import vuex from 'vuex'
+import Vuex from 'Vuex'
 import store from '@/store/store'
 
-Vue.use(vuex)
+Vue.use(Vuex)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
